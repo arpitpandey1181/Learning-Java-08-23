@@ -2,7 +2,7 @@ package whileloop;
 
 import java.util.Scanner;
 
-public class OddNumbers {
+public class Factorial {
     public static void main(String[] args) {
         // take number from user and print the even numbers to that number
 
@@ -12,13 +12,13 @@ public class OddNumbers {
         int num = sc.nextInt(); // 10
         sc.close();
 
-        // using while loop
-        int i=1;
-        while(i<=num){
-            if(i%2 != 0){
-                System.out.print(i+" ");
-            }
-            i++;
+        // 5 = 5 * 4 = 20 * 3 = 60 * 2 = 120 * 1 = 120
+        int factorial = 1;
+
+        while( num > 1){
+           factorial =  factorial * num;
+           num--;
         }
+        System.out.println(factorial);
     }
 }
