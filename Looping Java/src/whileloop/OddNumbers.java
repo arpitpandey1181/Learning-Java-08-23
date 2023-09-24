@@ -13,6 +13,15 @@ public class OddNumbers {
         sc.close();
 
         // using while loop
+        int i = 1;
+        while(i <= num){
+            if(i%2!=0){
+          System.out.println(i);
+            }
+          i++;
+        }
+    
+
 
     }
 }
