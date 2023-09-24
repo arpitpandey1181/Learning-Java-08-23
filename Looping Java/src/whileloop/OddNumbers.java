@@ -12,7 +12,7 @@ public class OddNumbers {
         int num = sc.nextInt(); // 10
         sc.close();
 
-        // using while loop
+        // using 
         int i = 1;
         while(i <= num){
             if(i%2!=0){
@@ -22,6 +22,15 @@ public class OddNumbers {
         }
     
 
+
+
+      //  int i=1;
+      //   while(i<=num){
+      //       if(i%2 != 0){
+      //           System.out.print(i+" ");
+      //       }
+      //       i++;
+      //    }
 
     }
 }
