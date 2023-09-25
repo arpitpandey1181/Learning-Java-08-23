@@ -19,14 +19,14 @@ public class NewFact {
         }
         System.out.println(fact);
 
-        int fact = 1;
-        int i = 1;
+        // int fact = 1;
+        // int i = 1;
         
-        while (i <= num) {
-            fact = fact * i;
-            i++;
-        }
-        System.out.println(fact);
+        // while (i <= num) {
+        //     fact = fact * i;
+        //     i++;
+        // }
+        // System.out.println(fact);
 
     }
 }
