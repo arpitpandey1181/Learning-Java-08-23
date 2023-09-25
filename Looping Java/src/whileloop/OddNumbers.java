@@ -12,13 +12,25 @@ public class OddNumbers {
         int num = sc.nextInt(); // 10
         sc.close();
 
-        // using while loop
-        int i=1;
-        while(i<=num){
-            if(i%2 != 0){
-                System.out.print(i+" ");
+        // using 
+        int i = 1;
+        while(i <= num){
+            if(i%2!=0){
+          System.out.println(i);
             }
-            i++;
+          i++;
         }
+    
+
+
+
+      //  int i=1;
+      //   while(i<=num){
+      //       if(i%2 != 0){
+      //           System.out.print(i+" ");
+      //       }
+      //       i++;
+      //    }
+
     }
 }
