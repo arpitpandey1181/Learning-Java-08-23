@@ -17,7 +17,7 @@ public class Question5Sol {
         int count = 0;  // main logic
 
         if(num1 > 0){
-                
+             
             while( i < num1 ){             
                     // 10 % 2 => 10/2 = ans = 5 , rem = 0
                 if( num1 % i == 0){         

@@ -5,5 +5,11 @@ package whileloop.assignment;
 public class Question6Sol {
     public static void main(String[] args) {
         
+        int num = 18982580;
+        int ans = num / 10;
+        int rem = num % 10;
+
+        System.out.println(ans);
+        System.out.println(rem);
     }
 }
