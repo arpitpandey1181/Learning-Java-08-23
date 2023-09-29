@@ -1,42 +1,30 @@
 package forloop;
 
-// * * * * * * 
-// * * * * * *
-// * * * * * *
-// * * * * * * 
-// * * * * * * 
-// * * * * * * 
+// * * * * *  * * * * *  * * * * * * * *
+// * * * * *  * * * * *  * * * * * * * *
+// * * * * *  * * * * *  * * * * * * * *
+// * * * * *  * * * * *  * * * * * * * *
+// # # # # #  # # # # #  # # # # # # # #   i = 5
+// * * * * *  * * * * *  * * * * * * * *
+// * * * * *  * * * * *  * * * * * * * *
+// * * * * *  * * * * *  * * * * * * * *
+// * * * * *  * * * * *  * * * * * * * *
+
 public class Pattern1 {
     public static void main(String[] args) {
 
-        int n = 6;
+        for (int l = 1; l <= 9; l++) {
 
-        for (int i = 1; i <= n; i++) {
-            System.out.print("* ");
-        }
-        System.out.println();
-        for (int i = 1; i <= n; i++) {
-            System.out.print("* ");
-        }
-        System.out.println();
-        for (int i = 1; i <= n; i++) {
-            System.out.print("* ");
-        }
-        System.out.println();
-        for (int i = 1; i <= n; i++) {
-            System.out.print("* ");
-        }
-        System.out.println();
-        for (int i = 1; i <= n; i++) {
-            System.out.print("* ");
-        }
-        System.out.println();
-        for (int i = 1; i <= n; i++) {
-            System.out.print("* ");
-        }
-        System.out.println();
-        for (int i = 1; i <= n; i++) {
-            System.out.print("* ");
+            for (int i = 1; i <= 15; i++) {
+                if (l == 5) {
+                    System.out.print("# ");
+                } else {
+                    System.out.print("* ");
+                }
+
+            }
+            System.out.println();
+
         }
 
     }
