@@ -1,11 +1,11 @@
-package pattern;
+package pattern.pyramid.leftpyramid;
 
 // ***** 
 // **** 
 // *** 
 // ** 
 // * 
-public class Pattern11 {
+public class ReverseStart {
     public static void main(String[] args) {
 
         // for row

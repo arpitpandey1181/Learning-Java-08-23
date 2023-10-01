@@ -1,5 +1,5 @@
 
-Pattern Type - Right half Pyramid
+Pattern Type - left Pyramid
 
 1.
 
@@ -30,7 +30,7 @@ A B C D E
 
 
 
-Pattern Type - Reverse Right half Pyramid
+Pattern Type - Reverse Right half Pramid
 
 4.
 

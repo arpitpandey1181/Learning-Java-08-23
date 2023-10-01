@@ -1,4 +1,4 @@
-package pattern;
+package pattern.dimond;
 
 // * 
 // ** 
@@ -15,17 +15,19 @@ public class Pattern13 {
         int n = 5;
 
         // for row
-        for (int i = 1; i <= 2 * n - 1; i++) {
+        for (int i = 1; i <= n; i++) {
             // for *
             for (int j = 1; j <= i; j++) {
                 System.out.print("*");
             }
-            // for space
-            for (int j = n - i; j >= 1; j--) {
-                System.out.print("&");
+            System.out.println();
+        }
+        for (int i = n - 1; i >= 1; i--) {
+
+            for (int j = 1; j <= i; j++) {
+                System.out.print("*");
             }
             System.out.println();
-
         }
 
     }
