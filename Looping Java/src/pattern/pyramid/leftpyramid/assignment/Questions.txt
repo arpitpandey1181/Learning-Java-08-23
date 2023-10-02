@@ -30,7 +30,7 @@ A B C D E
 
 
 
-Pattern Type - Reverse Right half Pramid
+Pattern Type - Reverse left Pramid
 
 4.
 
