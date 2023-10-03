@@ -10,7 +10,7 @@ package pattern.dimond;
 // ** 
 // *
 
-public class Pattern13 {
+public class RightHalfFullDiamon {
     public static void main(String[] args) {
 
         int n = 5;
