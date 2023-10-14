@@ -10,5 +10,6 @@ public class Main {
             main(arr);
         }
         Main.val++;
+        val--;
     }
 }
