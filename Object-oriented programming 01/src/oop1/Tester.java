@@ -1,11 +1,18 @@
 package oop1;
 
-class Test {
-    // test class
+class Human {
+    // props
+    String name;
+    int age;
+    char gender;
+
+    // methods
+    // walking();
+    // running();
 }
 
 public class Tester {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        Human chitti = new Human();
     }
 }
