@@ -2,6 +2,18 @@ package oop1.assignment;
 
 class Person {
     // implimet this person class
+    private String greet;
+    private String haveBirthday;
+    private String move;
+    public void greet(){
+        System.out.println("Hello");
+    }
+    public void haveBirthday(){
+        System.out.println("22 march");
+    }
+    public void move(){
+        System.out.println();
+    }
 }
 
 public class Tester01 {
@@ -18,8 +30,8 @@ public class Tester01 {
         person1.haveBirthday();
         person2.haveBirthday();
 
-        person1.move("San Francisco");
-        person2.move("Chicago");
+        person1.move();
+        person2.move();
 
     }
 }

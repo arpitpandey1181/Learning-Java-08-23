@@ -17,6 +17,39 @@ Instructions:
     - public void celebrateBirthday()
 
  */
+class Dog{
+    private String name;
+    private int age ;
+    private String breed;
+
+    public void bark(String name1){
+       name = name1;
+    }
+    public void eat(int age1){
+        age = age1;
+    }
+    public void celebrateBirthday(String breed1){
+        breed = breed1 ;
+    }
+    public String getbark(){
+        return name;  
+    }
+    public int geteat(){
+        return age;
+    }
+    public String getcelebrateBirthday(){
+        return breed;
+    }
+
+}
 public class Tester02 {
+    public static void main(String[] args) {
+        Dog d = new Dog();
+        d.bark("pappy");
+        d.eat(12);
+        d.celebrateBirthday("jarman");
+
+        System.out.println(d.getbark());
+    }
 
 }

@@ -3,13 +3,12 @@ package oop1.assignment;
 class Xyz {
     int a = 10;
 
-    void val(int a) {
+    int val(int a) {
+        return a;
         // hint [ int a = ];
-        System.out.println(b);
     }
-
-    int take(int x, String s) {
-        String c = x + s;
+    int take(int x, int s ) {
+        int c = x + s;
         return c;
     }
 }
@@ -17,5 +16,10 @@ class Xyz {
 public class Tester03 {
     public static void main(String[] args) {
         // call all 2 methods of Xyz class
+        Xyz abc = new Xyz();
+         int ans;
+         ans = abc.val(10);
+         ans = abc.take(10, 20);
+
     }
 }
