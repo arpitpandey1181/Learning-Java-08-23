@@ -10,25 +10,30 @@ class Soluction01 {
     // integer as input and returns its factorial. The factorial of a non-negative
     // integer N, denoted as N!, is the product of all positive integers less than
     // or equal to N.
-    void factorial(int num){
+    int calculateFactorial(int num){
         if(num >= 0){
            int ans = 1;
            for(int i = 1; i <= num; i++){
              ans *= i;
             }
-         System.out.println(ans);
+         return ans;
         }
         else{
-            System.out.println("Your number is Negative : ");
+           return -1;
         }
     }
-    void prime(int num){
-          if(num%2==0){
-             System.out.println("it is prime number");
-           }
-          else{
-             System.out.println("it is not prime number");
-           }
+    boolean isPrime(int num){
+          if(num > 0){
+              // number should be divided only with itself.
+              for(int i=2; i < num; i++){
+                  if(num % i == 0){
+                      return false;
+                  }
+              }
+              return true;
+          }else{
+              return false;
+          }
     }
 }
 
