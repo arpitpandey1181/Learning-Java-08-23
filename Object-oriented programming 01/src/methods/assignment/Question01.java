@@ -10,30 +10,27 @@ class Soluction01 {
     // integer as input and returns its factorial. The factorial of a non-negative
     // integer N, denoted as N!, is the product of all positive integers less than
     // or equal to N.
-    int calculateFactorial(int num){
-        if(num >= 0){
+    void factorial(int num){
+        if(num > 0){
            int ans = 1;
            for(int i = 1; i <= num; i++){
              ans *= i;
             }
-         return ans;
+         System.out.println(ans);
         }
         else{
-           return -1;
+            System.out.println("Your number is Negative : ");
         }
     }
-    boolean isPrime(int num){
-          if(num > 0){
-              // number should be divided only with itself.
-              for(int i=2; i < num; i++){
-                  if(num % i == 0){
-                      return false;
-                  }
-              }
-              return true;
-          }else{
-              return false;
-          }
+    void prime(int num){
+      for(int i = 2; i < num; i++){
+          if(num%i==0){
+            
+           }
+          else{
+             System.out.println("it is  prime number");
+           }
+        }
     }
 }
 
@@ -42,7 +39,7 @@ public class Question01 {
        Scanner sc = new Scanner(System .in);
          System.out.println("Enter number : ");
          int n = sc.nextInt();
-         Soluction04 fac = new Soluction04();
+         Soluction01 fac = new Soluction01();
          fac.factorial(n);
          fac.prime(n);
     }
