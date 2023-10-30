@@ -50,5 +50,6 @@ public class Tester {
         result = t1.calculateNumber();
 
         System.out.println(result);
+        System.out.println();
     }
 }
