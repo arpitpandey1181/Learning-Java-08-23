@@ -32,6 +32,5 @@ public class Abstraction1 {
 
         d1.pintLinkedlist();
 
-        System.out.println("Hello,World!");
     }
 }
