@@ -3,5 +3,6 @@ there are 4 pillor of oops
 
 1. Abstruction
 2. Encapluction
+
 3. Inheritance 
 4. Polymorpym
