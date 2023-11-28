@@ -11,6 +11,8 @@ interface Animal {
 
     int getAge();
 
+    float getValue();
+
 }
 
 class Dog implements Animal {
