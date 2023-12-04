@@ -14,6 +14,7 @@ class Toyota extends Car {
     }
 }
 
+// ex
 // child-1
 class Fartunar2X2 extends Toyota {
     public void sitting() {
