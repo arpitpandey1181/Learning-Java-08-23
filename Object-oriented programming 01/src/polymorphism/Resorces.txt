@@ -1,0 +1,12 @@
+
+https://www.javatpoint.com/dynamic-polymorphism-in-java
+
+https://www.javatpoint.com/static-binding-and-dynamic-binding
+
+
+Static Polymorphism (Compile Time Polymorphism) 
+Static Binding (also known as Early Binding).
+
+
+Dynamic Polymorphism (Run Time Polymorphism)
+Dynamic Binding (also known as Late Binding).
