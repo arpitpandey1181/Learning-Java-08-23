@@ -50,7 +50,5 @@ public class Tester2 {
         System.out.println(co.Mediam);
         co.getLocation();
         System.out.println(co.getLocation());
-    }
-
-    
+    }   
 }
