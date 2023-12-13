@@ -29,10 +29,42 @@ class Food {
 
 public class Tester01 {
 
+<<<<<<< HEAD
     public static void main(String[] args) {
         System.out.println(Food.name);
        Food.getSirName();
     
+=======
+    public static int count = 1;
 
+    // static {
+    // int count = 1;
+    // }
+
+    public static void main() {
+        System.out.println("Main Method");
+    }
+
+    public static void main(int x) {
+        System.out.println(x);
+    }
+
+    public static void main(String[] args) {
+
+        /*
+         * System.out.println(Tester01.count);
+         * if (count < 5) {
+         * main(args);
+         * }
+         * System.out.println(Tester01.count);
+         */
+        System.out.println(Tester01.count); // Print the initial value of count
+>>>>>>> 1a3859da4096e2754fde186eb0759044ecfb80d6
+
+        if (Tester01.count < 3) {
+            Tester01.count++; // Increment count
+            main(args); // Recursive call
+        }
+        System.out.println("Final " + Tester01.count--); // Print the final value of count
     }
 }
