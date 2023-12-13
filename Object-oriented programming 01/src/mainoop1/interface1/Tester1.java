@@ -15,7 +15,7 @@ interface Animal {
 
 }
 
-class Dog implements Animal {
+class Dog12 implements Animal {
 
     @Override
     public void getName() {
