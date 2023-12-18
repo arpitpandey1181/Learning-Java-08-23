@@ -12,5 +12,6 @@ public class TypeCasting {
         int ans = x + (int) y;
 
         System.out.println(ans); // type casting
+
     }
 }
