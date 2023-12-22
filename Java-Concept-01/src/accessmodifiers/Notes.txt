@@ -2,6 +2,6 @@
 In java access modifiers
 
 1 private
-2 public
+2 default
 3 protected
-4 default
+4 public
