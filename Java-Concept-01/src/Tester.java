@@ -1,6 +1,41 @@
 
-import accessmodifiers.publicaccess.p1.p2.p3.Laptop;
+abstract class Car1 {
+
+    public abstract void engine();
+
+    public abstract void drive();
+
+    public void carColor() {
+        System.out.println("Color is green!");
+    }
+}
+
+// concrete class
+class Suzuki extends Car1 {
+
+    public void engine() {
+        System.out.println("Engine is working!");
+    }
+
+    public void drive() {
+        System.out.println("Drive your car!");
+    }
+
+    public void run() {
+        System.out.println("CAn't run");
+    }
+
+}
 
 public class Tester {
-    Laptop lap = new Laptop();
+    public static void main(String[] args) {
+
+        Car1 mycar;
+        mycar = new Suzuki();
+
+        mycar.carColor();
+        mycar.engine();
+        mycar.drive();
+        // mycar.run();
+    }
 }
