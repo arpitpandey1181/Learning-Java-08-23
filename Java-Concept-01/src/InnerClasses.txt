@@ -1,0 +1,15 @@
+
+Nested Inner Class (Non-Static Inner Class): 
+                    OuterClass.InnerClass innerObject = outerObject.new InnerClass();
+
+
+Static Nested Class:
+                    OuterClass.InnerClass innerObject = new OuterClass.InnerClass();
+
+    
+
+Local Inner Class:
+                    LocalInnerClass inner = new LocalInnerClass();
+
+
+
