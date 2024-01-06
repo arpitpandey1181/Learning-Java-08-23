@@ -1,0 +1,19 @@
+
+There are three types of errors
+
+* Compile Time error
+* Runtime error
+* Logical error
+
+*************************************************************
+
+                        Object
+                          |
+                        Throwable
+                           |
+                Error                       Exception
+                 |                              |
+    Thread Ded        IO Error          Runtime Exception(Unchecked)      SQl Exception(Checked)   IO Exception(Checked)
+                                                |-Arthimatic
+                                                |-ArrayIndexOutofBoundsException
+                                                |-NullPointerException
