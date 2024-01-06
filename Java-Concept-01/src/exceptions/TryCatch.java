@@ -2,7 +2,7 @@ package exceptions;
 
 import java.util.Scanner;
 
-public class Tester {
+public class TryCatch {
     public static void main(String[] args) {
 
         // run time errors
@@ -20,11 +20,16 @@ public class Tester {
 
         int ans = 0;
 
-        ans = num1 / num2;
+        try {
+            ans = num1 / num2;
+
+        } catch (Exception e) {
+
+            System.out.println("Denominator should be more then 0");
+        }
 
         System.out.println("Division is: " + ans);
 
-        // Never run if denomenitor is 0
         ans = num1 + num2;
         System.out.println("Addiction is: " + ans);
 
