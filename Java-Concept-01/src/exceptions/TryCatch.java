@@ -23,7 +23,7 @@ public class TryCatch {
         try {
             ans = num1 / num2;
 
-        } catch (Exception e) {
+        } catch (RuntimeException e) {
 
             System.out.println("Denominator should be more then 0");
         }
