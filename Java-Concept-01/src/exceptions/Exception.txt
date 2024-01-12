@@ -11,9 +11,13 @@ There are three types of errors
                           |
                         Throwable
                            |
-                Error                       Exception
+                Error(Lack of
+                  system resorce)              Exception
                  |                              |
     Thread Ded        IO Error          Runtime Exception(Unchecked)      SQl Exception(Checked)   IO Exception(Checked)
                                                 |-Arthimatic
                                                 |-ArrayIndexOutofBoundsException
                                                 |-NullPointerException
+
+
+https://noidatut.com/oops-using-java/checked-unchecked-exceptions-in-java.php
