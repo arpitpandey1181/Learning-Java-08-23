@@ -21,8 +21,8 @@ public class Tester04 {
         return ans;
     }
 
-    public void add(int num) {
-
+    public int add(int num) {
+        return num + 10;
     }
 
     public static int getDivide(int num) {
