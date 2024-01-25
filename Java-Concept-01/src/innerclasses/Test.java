@@ -13,7 +13,7 @@ public class Test {
 
         X x = new X();
         int ans = x.num1;
-
+        System.out.println(ans);
         new X.Y();
 
     }
