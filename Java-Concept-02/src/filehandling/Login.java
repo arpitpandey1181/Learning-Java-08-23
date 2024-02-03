@@ -19,9 +19,10 @@ public class Login {
             database.createNewFile();
             Scanner reader = new Scanner(database);
 
+            // System.out.println(reader.nextLine());
+
             while (reader.hasNextLine()) {
                 DBPass = reader.nextLine();
-
             }
 
             if (pass.equals(DBPass))
