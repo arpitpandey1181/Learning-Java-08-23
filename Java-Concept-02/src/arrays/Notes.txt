@@ -1,0 +1,2 @@
+
+Arrays is a similer kind of data element stored at continious memory location
