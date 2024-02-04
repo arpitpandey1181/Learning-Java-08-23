@@ -5,7 +5,7 @@ public class Tester02 {
 
         int[] arr = new int[5];
 
-        for (int i = 0; i <= arr.length; i++)
+        for (int i = 0; i < arr.length; i++)
             arr[i] = 90;
 
         for (int i = 0; i < arr.length; i++)

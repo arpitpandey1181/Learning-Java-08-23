@@ -4,7 +4,7 @@ package finalkeyword;
 
 final class Human02 {
 
-    private int age;
+    private int age = 2;
 
     public int getAge() {
         return this.age;
@@ -25,6 +25,6 @@ public class Tester01 {
     public static void main(String[] args) {
 
         Human02 rob = new Human02();
-        rob.getAge();
+        rob.getAge(2);
     }
 }

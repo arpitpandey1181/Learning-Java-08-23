@@ -1,5 +1,5 @@
 
-package thredsx;
+//package thredsx;
 
 class MyThredClass implements Runnable {
 
