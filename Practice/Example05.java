@@ -21,25 +21,33 @@ public class Example05 {
 
         // STRING
 
-        // Scanner ab = new Scanner(System.in);
-        // int m = ab.nextInt();
-        // String[] brr = new String[m];
-        // System.out.println("Enter " + m + " String name ");
-        // for (int j = 0; j < brr.length; j++) {
-        // brr[j] = ab.nextLine();
-        // }
-        // for (int j = 0; j < 'm'; j++) {
-        // System.out.println("Element at index " + j + " : " + brr[j]);
-        // }
+        Scanner ab = new Scanner(System.in);
+        System.out.println("enter array size ");
+        int m = ab.nextInt();
+        String[] brr = new String[m];
+        System.out.println("Enter " + m + " String name ");
+        for (int j = 0; j < brr.length; j++) {
+            brr[j] = ab.nextLine();
+        }
+        for (int j = 0; j < brr.length; j++) {
+            System.out.println("Element at index " + j + " : " + brr[j]);
+        }
 
         // DOUBLE
 
-        double[] crr = { 11.2, 12.3, 258.0, 456, };
-        System.out.println(crr[0]);
-        System.out.println(crr[1]);
-        System.out.println(crr[2]);
-        System.out.println(crr[4]);
-        System.out.println(crr[4]);
+        // double[] crr = { 11.2, 12.3, 258.0, 456, };
+        // System.out.println(crr[0]);
+        // System.out.println(crr[1]);
+        // System.out.println(crr[2]);
+        // System.out.println(crr[4]);
+        // System.out.println(crr[4]);
+
+        // BOOLEAN
+
+        // boolean[] prr = { 5 > 7, 1 > 3, 5 >= 5 };
+        // System.out.println(prr[0]);
+        // System.out.println(prr[1]);
+        // System.out.println(prr[2]);
     }
 
 }
